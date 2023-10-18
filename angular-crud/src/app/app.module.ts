@@ -9,6 +9,13 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { EmpAddEditComponent } from './emp-add-edit/emp-add-edit.component';
 import { MatDialogModule } from '@angular/material/dialog';
+import {MatInputModule} from '@angular/material/input';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatDatepickerModule} from '@angular/material/datepicker';
+import {MatNativeDateModule} from '@angular/material/core';
+import {MatRadioModule} from '@angular/material/radio';
+import {NgFor} from '@angular/common';
+import {MatSelectModule} from '@angular/material/select';
 
 @NgModule({
   declarations: [
@@ -22,7 +29,15 @@ import { MatDialogModule } from '@angular/material/dialog';
     MatToolbarModule, 
     MatButtonModule, 
     MatIconModule,
-    MatDialogModule
+    MatDialogModule,
+    MatInputModule,
+    MatFormFieldModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
+    MatRadioModule,
+    NgFor,
+    MatSelectModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
