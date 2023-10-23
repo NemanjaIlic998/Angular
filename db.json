@@ -1,5 +1,19 @@
 {
   "profile": {
     "name": "Milan i Nemnja"
-  }
+  },
+  "employee": [
+    {
+      "firstName": "asd",
+      "lastName": "asd",
+      "email": "a",
+      "dob": "0122-12-31T22:38:00.000Z",
+      "gender": "",
+      "education": "",
+      "company": "",
+      "experience": "",
+      "package": "",
+      "id": 1
+    }
+  ]
 }

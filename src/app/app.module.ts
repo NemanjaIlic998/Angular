@@ -17,6 +17,7 @@ import {MatRadioModule} from '@angular/material/radio';
 import {NgFor} from '@angular/common';
 import {MatSelectModule} from '@angular/material/select';
 import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     MatRadioModule,
     NgFor,
     MatSelectModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
